@@ -79,19 +79,19 @@ function score(choice1, choice2) {
     if (mark1 > mark2) {
         document.getElementById("score1").textContent = +document.getElementById("score1").textContent + 1;
         setTimeout(function() {
-          choice1.style.display = "none"; 
-          choice2.style.display = "none"; 
+          choice1.style.display = "false"; 
+          choice2.style.display = "false"; 
         }, 1000);
       } else if (mark1 < mark2) {
         document.getElementById("score2").textContent = +document.getElementById("score2").textContent + 1;
         setTimeout(function() {
-          choice1.style.display = "none"; 
-          choice2.style.display = "none"; 
+          choice1.style.display = "false"; 
+          choice2.style.display = "false"; 
         }, 1000); 
       } else {
         setTimeout(function() {
-          choice1.style.display = "none";
-          choice2.style.display = "none";
+          choice1.style.display = "false"; 
+          choice2.style.display = "false"; 
         }, 1000);
       }
 }
