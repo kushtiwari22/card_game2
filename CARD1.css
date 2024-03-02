@@ -26,6 +26,21 @@ h1{
 /* .user1 img{
     margin-top: 62vh;
 } */
+.king1 {
+    position: absolute;  
+    margin-top: 12vh;
+    z-index: -1;
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.king2 {
+    position: absolute;  
+    margin-top: 12vh;
+    z-index: -1;
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 .cardpack1{
     position: absolute ;
     margin-left: 5vw;
