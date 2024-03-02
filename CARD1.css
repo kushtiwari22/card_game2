@@ -9,7 +9,6 @@ h1{
 }
 .container{
     display: flex;
-    /* position: relative; */
 }
 .user1{
     background-color: brown;
@@ -23,45 +22,37 @@ h1{
     height: 90vh;
     position: relative;
 }
-/* .user1 img{
-    margin-top: 62vh;
-} */
 .king1 {
     position: absolute;  
     margin-top: 12vh;
     z-index: -1;
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px;
+    height: auto; 
 }
 
 .king2 {
     position: absolute;  
     margin-top: 12vh;
     z-index: -1;
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; 
+    height: auto; 
 }
 .cardpack1{
     position: absolute ;
     margin-left: 5vw;
     margin-top: 63vh;
-    /* z-index: 10; */
 }
 .cardpack2{
     position: absolute ;
     margin-left: 3vw;
     margin-top: 61vh;
-    /* z-index: 10; */
 }
 .cardpack3{
     position: absolute ;
     margin-left: 1vw;
     margin-top: 59vh;
-    /* z-index: 10; */
+
 }
-/* .user2 img{
-    margin-top: 62vh;
-} */
 .scorecard1{
     position: absolute ;
     height: 150px;
@@ -83,17 +74,15 @@ h1{
     position: absolute ;
     margin-left: 5vw;
     margin-top: 63vh;
-    /* z-index: 2; */
 }
 .playcard2{
     position: absolute ;
     margin-left: 3vw;
     margin-top: 61vh;
-    /* z-index: 2; */
 }
 .playcard3{
     position: absolute ;
     margin-left: 1vw;
     margin-top: 59vh;
-    /* z-index: 2; */
 }
+
